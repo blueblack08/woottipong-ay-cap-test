@@ -13,7 +13,7 @@ Installation.
 5. Copy sql code from src/main/resources/member_type.sql and run in PostgreSQL.
 
 Using Demo in Postman.
-1. try to use POST http://localhost:8080/api/auth/signup add body as code below
+1. Try to Sign-Up use POST http://localhost:8080/api/auth/signup add body as raw json as code below
 ```
 {
 	"name": "gold1",
@@ -25,4 +25,11 @@ Using Demo in Postman.
 	"salary": 30000
 }
 ```
-2. try to Sign in by use POST 
+
+2. Try to Sign-In by use POST http://localhost:8080/api/auth/signin add body as raw json as code below
+```
+{
+	"username": "gold1",
+	"password": "123456"
+}
+```

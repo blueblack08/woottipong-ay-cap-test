@@ -1,6 +1,6 @@
 # woottipong-ay-cap-test
 
-## Requiremt.
+## Requirement.
 1. Java JDK 1.8 
 2. Eclipse JavaEE IDE
 3. PostgreSQL

@@ -14,6 +14,7 @@ Installation.
 
 Using Demo in Postman.
 1. try to use POST http://localhost:8080/api/auth/signup add body as code below
+```
 {
 	"name": "gold1",
 	"username": "gold1",
@@ -23,5 +24,5 @@ Using Demo in Postman.
 	"address": "001",
 	"salary": 30000
 }
-
+```
 2. try to Sign in by use POST 

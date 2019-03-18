@@ -1,18 +1,18 @@
 # woottipong-ay-cap-test
 
-Requiremt.
+##Requiremt.
 1. Eclipse JavaEE IDE
 2. PostgreSQL
 3. Postman
 
-Installation.
+##Installation.
 1. In PostgreSQL, create database name aycaptest.
 2. Clone this project and Import Existing Maven Projects to your Eclipse IDE.
 3. Open file application.properties from src/main/resources for change your connection to database and you can change secret key at grokonez.app.jwtSecret property.
 4. Run AppAYCapTest.java (from com/woottipong/aycaptest) as Java Application once, if no error program will create tables automaticly.
 5. Copy sql code from src/main/resources/member_type.sql and run in PostgreSQL.
 
-Using Demo in Postman.
+##Using Demo in Postman.
 1. Try to Sign-Up use POST http://localhost:8080/api/auth/signup add body as raw json as code below
 eg: Body raw JSON
 ```
@@ -43,5 +43,13 @@ Ex: Result:
     "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb2xkMSIsImlhdCI6MTU1Mjg4OTI3NSwiZXhwIjoxNTUyOTc1Njc1fQ.5hcnCxCfMd0KL-pw6ei10_i8sfSofSpbW7SLGlMdrk-FYkWLlF1Wqq8gQSaBhw1_UrJ8_nrXYmTwSi6fjmOiRQ"
 }
 ```
+
+3. Try to request resource with authorization by add Http header Authorization value "Bearer " follow by accessToken
+
+```
+Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb2xkMSIsImlhdCI6MTU1Mjg4OTI3NSwiZXhwIjoxNTUyOTc1Njc1fQ.5hcnCxCfMd0KL-pw6ei10_i8sfSofSpbW7SLGlMdrk-FYkWLlF1Wqq8gQSaBhw1_UrJ8_nrXYmTwSi6fjmOiRQ"
+```
+
+
 
 

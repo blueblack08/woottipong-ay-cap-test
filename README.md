@@ -56,9 +56,13 @@ Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb2xkMSIsImlhdCI6MTU1Mjg4
 ```
 
 GET url
+
 http://localhost:8080/api/silver/member
+
 http://localhost:8080/api/gold/member
+
 http://localhost:8080/api/platinum/member
+
 
 
 

@@ -14,6 +14,7 @@ Installation.
 
 Using Demo in Postman.
 1. Try to Sign-Up use POST http://localhost:8080/api/auth/signup add body as raw json as code below
+eg: Body raw JSON
 ```
 {
 	"name": "gold1",
@@ -26,10 +27,21 @@ Using Demo in Postman.
 }
 ```
 
-2. Try to Sign-In by use POST http://localhost:8080/api/auth/signin add body as raw json as code below
+2. Try to Sign-In by use POST http://localhost:8080/api/auth/signin add body as code below. 
+eg: Body raw JSON
 ```
 {
 	"username": "gold1",
 	"password": "123456"
 }
 ```
+
+Ex: Result:
+```
+{
+    "tokenType": "Bearer",
+    "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb2xkMSIsImlhdCI6MTU1Mjg4OTI3NSwiZXhwIjoxNTUyOTc1Njc1fQ.5hcnCxCfMd0KL-pw6ei10_i8sfSofSpbW7SLGlMdrk-FYkWLlF1Wqq8gQSaBhw1_UrJ8_nrXYmTwSi6fjmOiRQ"
+}
+```
+
+

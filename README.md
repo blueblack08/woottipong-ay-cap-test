@@ -13,6 +13,7 @@
 5. Copy sql code from src/main/resources/member_type.sql and run in PostgreSQL.
 
 ## Using Demo in Postman.
+
 1. Try to Sign-Up use POST http://localhost:8080/api/auth/signup add body as raw json as code below
 
 Eg: Body raw JSON
@@ -27,6 +28,7 @@ Eg: Body raw JSON
 	"salary": 30000
 }
 ```
+
 
 2. Try to Sign-In by use POST http://localhost:8080/api/auth/signin add body as code below. 
 
@@ -45,12 +47,18 @@ Ex: Result:
 }
 ```
 
+
 3. Try to request resource with authorization by add Http header Authorization value "Bearer " follow by accessToken
 
 Ex:
 ```
 Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb2xkMSIsImlhdCI6MTU1Mjg4OTI3NSwiZXhwIjoxNTUyOTc1Njc1fQ.5hcnCxCfMd0KL-pw6ei10_i8sfSofSpbW7SLGlMdrk-FYkWLlF1Wqq8gQSaBhw1_UrJ8_nrXYmTwSi6fjmOiRQ"
 ```
+
+GET url
+http://localhost:8080/api/silver/member
+http://localhost:8080/api/gold/member
+http://localhost:8080/api/platinum/member
 
 
 

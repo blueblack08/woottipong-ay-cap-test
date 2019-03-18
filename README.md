@@ -1,9 +1,10 @@
 # woottipong-ay-cap-test
 
 ## Requiremt.
-1. Eclipse JavaEE IDE
-2. PostgreSQL
-3. Postman
+1. Java JDK 1.8 
+2. Eclipse JavaEE IDE
+3. PostgreSQL
+4. Postman
 
 ## Installation.
 1. In PostgreSQL, create database name aycaptest.

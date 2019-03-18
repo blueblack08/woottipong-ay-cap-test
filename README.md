@@ -55,7 +55,7 @@ Ex:
 Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnb2xkMSIsImlhdCI6MTU1Mjg4OTI3NSwiZXhwIjoxNTUyOTc1Njc1fQ.5hcnCxCfMd0KL-pw6ei10_i8sfSofSpbW7SLGlMdrk-FYkWLlF1Wqq8gQSaBhw1_UrJ8_nrXYmTwSi6fjmOiRQ"
 ```
 
-GET URL
+Resources: GET URL
 
 http://localhost:8080/api/silver/member
 

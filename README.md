@@ -48,7 +48,7 @@ Ex: Result:
 ```
 
 
-3. Try to request resource with authorization by add Http header Authorization value "Bearer " follow by accessToken
+3. Try to request resource with authorization by add HTTP Header "Authorization" value "Bearer <accessToken>"
 
 Ex:
 ```

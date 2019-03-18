@@ -22,7 +22,6 @@ Eg: Body raw JSON
 {
 	"name": "gold1",
 	"username": "gold1",
-	"memberType": "gold1",
 	"password": "123456",
 	"phone": "0000000001",
 	"address": "001",
